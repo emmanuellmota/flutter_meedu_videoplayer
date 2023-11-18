@@ -281,7 +281,7 @@ class MeeduPlayerController {
   /// such as fade-in and fade-out durations, overlay show/hide animations, and more.
   /// By modifying these durations, you can adjust the visual appearance and behavior
   /// of the video player's animations according to your preferences.
-  final Durations durations;
+  final ADurations durations;
 
   /// Controls the visibility of player overlays.
   ///
@@ -330,7 +330,7 @@ class MeeduPlayerController {
     this.enabledOverlays = const EnabledOverlays(),
     this.customCallbacks = const CustomCallbacks(),
     Responsive? responsive,
-    this.durations = const Durations(),
+    this.durations = const ADurations(),
     this.onVideoPlayerClosed,
     BoxFit? initialFit,
   }) : _videoFit = Rx(initialFit ?? BoxFit.fill) {
