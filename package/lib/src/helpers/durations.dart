@@ -1,6 +1,6 @@
 /// Defines the animation durations for various animations in a video.
 ///
-class Durations {
+class ADurations {
   /// The duration for showing and hiding the video fit overlay.
   final Duration videoFitOverlayDuration;
 
@@ -20,7 +20,7 @@ class Durations {
   final Duration seekDuration;
 
   /// Creates a new instance of the Durations class with the specified durations.
-  const Durations({
+  const ADurations({
     this.videoFitOverlayDuration = const Duration(milliseconds: 250),
     this.volumeOverlayDuration = const Duration(milliseconds: 250),
     this.controlsDuration = const Duration(milliseconds: 250),
